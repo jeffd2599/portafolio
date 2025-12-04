@@ -255,6 +255,10 @@ const projects = [
                 caption: 'Gestión de Usuarios: CRUD completo con paginación y búsqueda, implementado con patrón Active Record.' 
             },
             { 
+                url: 'img/projects/reto500k/admin-programs-manager.png', 
+                caption: 'Gestión de Programas: Administración del ciclo de vida de los retos (CRUD) con acceso directo a la configuración de tareas y reportes de desempeño.' 
+            },
+            { 
                 url: 'img/projects/reto500k/admin-programs-config.png', 
                 caption: 'Configuración de Programas: Creación de ciclos formativos y definición de reglas de negocio.' 
             },
@@ -310,15 +314,15 @@ const projects = [
                 url: 'img/projects/reto500k/student-task-submission.png', 
                 caption: 'Aula Virtual: Vista de consumo de contenido y formulario de entrega de tareas.' 
             },
+            { 
+                url: 'img/projects/reto500k/system-profile.png', 
+                caption: 'Autogestión: Edición de perfil de usuario y preferencias de cuenta.' 
+            },
             
             // --- ARQUITECTURA / EXTRA ---
             { 
                 url: 'img/projects/reto500k/system-login.png', 
                 caption: 'Seguridad: Sistema de autenticación robusto con encriptación de credenciales.' 
-            },
-            { 
-                url: 'img/projects/reto500k/system-profile.png', 
-                caption: 'Autogestión: Edición de perfil de usuario y preferencias de cuenta.' 
             }
         ]
     }
