@@ -325,5 +325,51 @@ const projects = [
                 caption: 'Seguridad: Sistema de autenticación robusto con encriptación de credenciales.' 
             }
         ]
+    },
+    {
+        id: 'irontracker',
+        title: 'IronTracker - AI Fitness App',
+        category: 'app', 
+        shortDescription: 'Aplicación multiplataforma para seguimiento de entrenamiento de fuerza con análisis de datos y asistencia de Inteligencia Artificial.',
+        fullDescription: 'Aplicación híbrida (Web/Android) para la gestión inteligente de entrenamientos de fuerza. Permite el diseño de rutinas personalizadas, registro en tiempo real de series/repeticiones y visualización avanzada del progreso mediante gráficos interactivos (Recharts). Destaca por su profunda integración con la API de Google Gemini, funcionando como un "AI Coach" capaz de generar rutinas automáticas, ofrecer consejos técnicos y analizar ejercicios. El backend, base de datos y la autenticación están gestionados de forma segura a través de Supabase, empaquetado para móviles utilizando Capacitor.',
+        stack: ['React 19', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Google Gemini API', 'Capacitor', 'Recharts'],
+        mainImage: 'img/projects/irontracker/irontracker-main.png',
+        gallery: [
+            // Dashboard y Analítica
+            { 
+                url: 'img/projects/irontracker/irontracker-dashboard-charts.png',
+                caption: 'Dashboard Inteligente: Análisis de equilibrio muscular mediante gráficos de radar y seguimiento del 1RM estimado.'
+            },
+
+            // Entrenamiento Activo
+            { 
+                url: 'img/projects/irontracker/irontracker-active-workout.png',
+                caption: 'Entrenamiento en Tiempo Real: Registro rápido de series, repeticiones y peso con historial inmediato de sesiones anteriores.'
+            },
+            { 
+                url: 'img/projects/irontracker/irontracker-rest-timer.png',
+                caption: 'Gestión de Tiempos: Temporizador automático de descansos entre series con notificaciones.'
+            },
+
+            // Integración de Inteligencia Artificial
+            { 
+                url: 'img/projects/irontracker/irontracker-ai-generator.png',
+                caption: 'AI Coach: Generación automática de rutinas personalizadas impulsada por la API de Google Gemini.'
+            },
+            { 
+                url: 'img/projects/irontracker/irontracker-ai-coach.png',
+                caption: 'Asistencia Inteligente: Análisis técnico de ejercicios y consejos diarios de entrenamiento y nutrición.'
+            },
+
+            // Gestión y Librería
+            { 
+                url: 'img/projects/irontracker/irontracker-routine-creator.png',
+                caption: 'Creador de Rutinas: Interfaz flexible para diseñar planes de entrenamiento, incluyendo soporte para superseries.'
+            },
+            { 
+                url: 'img/projects/irontracker/irontracker-exercise-library.png',
+                caption: 'Librería Multimedia: Base de datos exhaustiva de ejercicios con soporte para imágenes y videos demostrativos.'
+            }
+        ]
     }
 ];
